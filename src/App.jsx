@@ -27,6 +27,7 @@ function App() {
           <Route path="/archives" element={<ArchiveNote />} />
           <Route path="/addNote" element={<AddNote />} />
           <Route path="/notes/:id" element={<ShowDetailNote />} />
+          <Route path="/*" element={<p>404 | Not found</p>} />
         </Routes>
       </main>
     </div>
